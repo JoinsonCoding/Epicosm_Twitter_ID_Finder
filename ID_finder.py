@@ -25,6 +25,16 @@ for u in user_list:
     
 df = pd.DataFrame(columns = ['User Names', 'Author ID'])
 
+num_followers = []
+
+for u in user_list:
+    followers = []
+    for user in tweepy.Cursor(api.get_followers, screen_name = u).items():
+        followers.append(user)
+    n = len(followers)
+    num_followers.append(n)
+
+df['Number Followers'] = num_followers
 df['User Names'] = user_list
 df['Author ID'] = ids
 
