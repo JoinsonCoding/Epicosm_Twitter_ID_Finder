@@ -20,6 +20,18 @@ This will generate a folder called Epicosm_Twitter_ID_Finder
 cd Epicosm_Twitter_ID_Finder
 ```
 
+4). Installing requirements
+
+This code uses the pandas and Tweepy packages, which may need to be installed, using the following code. 
+
+```python
+pip install pandas
+```
+
+```python
+pip install Tweepy
+```
+
 4). Use the following code to run the software
 
 ```python
@@ -31,3 +43,5 @@ if this doesn't work, it may be neccessary to use this code instead
 ```python
 python3 ID_finder.py
 ```
+
+This will generate a csv file in the directory you're currently in, with columns for the username, author_id and current number of followers. 
