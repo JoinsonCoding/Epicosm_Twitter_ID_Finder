@@ -4,7 +4,7 @@ This code is for use alongside the Epicosm Twitter harvesting software. This cod
 
 ## Instructions
 
-1). You must have an existing Epicosm directory and user_list.txt file in this directory. Each username must be on a seperate line and must link to an existing and non-private account. If the account is not existing or is private, the software will not work. 
+1). You must have an existing Epicosm directory and user_list.txt file. Each username must be on a seperate line and must link to an existing and non-private account. If the account is not existing or is private, the software will not work. 
 
 2). In the Epicosm directory run this code to extract this software. 
 
@@ -20,6 +20,8 @@ This will generate a folder called Epicosm_Twitter_ID_Finder
 cd Epicosm_Twitter_ID_Finder
 ```
 
+Create a new user_list.txt file and copy the contents of the existing one into this new folder. 
+
 4). Installing requirements
 
 This code uses the pandas and Tweepy packages, which may need to be installed, using the following code. 
@@ -32,7 +34,7 @@ pip install pandas
 pip install Tweepy
 ```
 
-4). Use the following code to run the software
+5). Use the following code to run the software
 
 ```python
 python ID_finder.py
