@@ -20,7 +20,13 @@ This will generate a folder called Epicosm_Twitter_ID_Finder
 cd Epicosm_Twitter_ID_Finder
 ```
 
-Create a new user_list.txt file and copy the contents of the existing one into this new folder. 
+Create a new user_list.txt file and copy the contents of the existing one into this new folder. You can create a new user_list.txt with the code
+
+```python
+vim user_list.txt
+```
+
+Depending on the software being used, the command vi may be used. 
 
 4). Installing requirements
 
