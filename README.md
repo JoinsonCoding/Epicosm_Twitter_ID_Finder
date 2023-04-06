@@ -40,7 +40,16 @@ pip install pandas
 pip install Tweepy
 ```
 
-5). Use the following code to run the software
+5). Adding API keys to the code
+
+In order for the code to run, you must open the code with 
+
+```python
+vim ID_finder.py
+```
+and input your consumer_key, consumer_secret, access_token and access_token_secret. 
+
+6). Use the following code to run the software
 
 ```python
 python ID_finder.py
